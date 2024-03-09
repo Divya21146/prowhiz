@@ -28,7 +28,7 @@ get_header(); ?>
 		astra_primary_content_top();
 
 		astra_content_loop();
-
+		
 		astra_pagination();
 
 		astra_primary_content_bottom();

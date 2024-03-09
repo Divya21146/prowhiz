@@ -2,5 +2,24 @@
 <style type="text/css">
 .ast-theme-transparent-header .main-header-bar-wrap .main-header-bar {
 	background-color: #fff;
+}
+.blogs {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button.cat-btn {
+    padding: 10px;
+}
+.rating-price {
+	display: flex;
+    align-items: center;
+	gap: 5%;
+}
+.blog-head {
+	display: flex;
+	justify-content: space-between;
+}
+.blog-page-content p {
+	margin-bottom: 0;
 }</style>
 <!-- end Simple Custom CSS and JS -->
