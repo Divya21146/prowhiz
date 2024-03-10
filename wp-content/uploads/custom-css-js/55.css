@@ -21,5 +21,15 @@ button.cat-btn {
 }
 .blog-page-content p {
 	margin-bottom: 0;
+}
+.event-content {
+	display: flex;
+}
+.events {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.event-content img {
+	height: fit-content;
 }</style>
 <!-- end Simple Custom CSS and JS -->
