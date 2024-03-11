@@ -22,7 +22,7 @@ button.cat-btn {
 .blog-page-content p {
 	margin-bottom: 0;
 }
-.event-content {
+.event-content, .pro_connect, .testimonial-profile {
 	display: flex;
 }
 .events {
