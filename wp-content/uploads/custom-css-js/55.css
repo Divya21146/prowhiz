@@ -31,5 +31,86 @@ button.cat-btn {
 }
 .event-content img {
 	height: fit-content;
+}
+#primary {
+	margin: 0 !important;
+}
+.ast-container, .ast-container-fluid {
+	padding-left: 50px;
+    padding-right: 50px;
+}
+.home-sec1 {
+	margin: 0 -50px 20px -50px;
+}
+.home-main1 {
+	padding-left: 40px;
+}
+.home-sec2 .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+	padding: 0;
+	margin-left: 30px;
+}
+.sec2-col1 .elementor-widget-wrap.elementor-element-populated {
+    gap: 20px;
+}
+.sec2-col1-1 img {
+    object-fit: cover;
+    width: -webkit-fill-available;
+}
+.sec2-col1 section {
+	height: 25%;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.sec2-col1-2 {
+	height: 75%;
+	border-radius: 6px;
+}
+.sec2-col1-2 img {
+	width: -webkit-fill-available;
+    object-fit: cover;
+	height: 351px;
+	border-radius: 6px;
+}
+.sec2-col1 {
+	height: 100%;
+}
+.home-sec2.elementor-section .elementor-container {
+	max-height: 500px;
+	overflow: hidden;
+	gap: 20px;
+}
+.sec2-col2 .elementor-widget-wrap {
+	border-radius: 6px;
+}
+.sec2-col3 {
+	align-items: center;
+}
+.sec2-col3-iconbox1 .elementor-icon-box-wrapper, .sec2-col3-iconbox2 .elementor-icon-box-wrapper {
+	display: flex !important;
+	align-items: center;
+}
+.sec2-col3 .elementor-icon-box-icon {
+	margin-bottom: 0;
+}
+.home-sec3-carousel .carousel .elementor-image-carousel-wrapper figure.swiper-slide-inner {
+	border: 1px solid #DDD8F9;
+    border-radius: 6px;
+	margin: 0 15px;
+}
+.pro_connect {
+	gap: 30px;
+	border-radius: 6px;
+    border: 1px solid #EFECFF;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.pro_connect img {
+	height: 160px;
+    max-width: 260px;
+    width: 100%;
+}
+footer {
+	padding-left: 50px;
+    padding-right: 50px;
 }</style>
 <!-- end Simple Custom CSS and JS -->
