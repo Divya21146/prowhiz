@@ -82,7 +82,7 @@ button.cat-btn {
 	overflow: hidden;
 	gap: 20px;
 }
-.sec2-col2 .elementor-widget-wrap {
+.sec2-col2 .elementor-widget-wrap, .home-final-sec {
 	border-radius: 6px;
 }
 .sec2-col3 {
@@ -99,6 +99,7 @@ button.cat-btn {
 	border: 1px solid #DDD8F9;
     border-radius: 6px;
 	margin: 0 15px;
+	padding: 10px;
 }
 .pro_connect {
 	gap: 30px;
@@ -124,10 +125,10 @@ footer {
     padding: inherit;
     border-radius: 4px;
 }
-.ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1::before {
+/* .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1::before {
     content: "\f0e0";
-}
-.entry-content h5, .elementor-widget-icon-box.elementor-position-top.sec2-col3-iconbox1 .elementor-icon-box-icon, .elementor-widget-icon-box.elementor-position-top.sec2-col3-iconbox2 .elementor-icon-box-icon {
+} */
+.entry-content h5, .elementor-widget-icon-box.elementor-position-top.sec2-col3-iconbox1 .elementor-icon-box-icon, .elementor-widget-icon-box.elementor-position-top.sec2-col3-iconbox2 .elementor-icon-box-icon, .top-content .elementor-widget-heading, .pro-content .elementor-widget-heading, .url p, .dynamic-pro h4, #block-10, .aboutus-sec2 .elementor-widget.elementor-widget-text-editor, .aboutus-sec2 .elementor-widget-heading {
 	margin-bottom: 0;
 }
 .sec2-col3-iconbox1 p {
@@ -138,5 +139,78 @@ footer {
 }
 .home-sec2 .sec2-col3 .sec2-div .elementor-widget-wrap.elementor-element-populated {
 	margin-left: 0;
+}
+.home-sec3-carousel figure.swiper-slide-inner img {
+	width: 60px;
+	height: 60px;
+}
+.elementor-element .swiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: 0;
+}
+.url {
+	display: flex;
+    justify-content: space-between;
+	align-items: end;
+}
+.cat .content {
+	width: 75%;
+	margin-bottom: 15px;
+}
+.top-categories {
+	margin: 20px -50px 0 -50px;
+}
+.home-sec3-carousel .elementor-container {
+	padding: 0 40px;
+	max-width: 100% !important;
+}
+.url .event-btn a {
+	text-decoration: none;
+}
+.home-final-sec .elementor-container {
+	align-items: center;
+}
+footer .ast-builder-grid-row-4-rheavy .ast-builder-grid-row {
+    grid-template-columns: 2fr 1fr 2fr 2fr;
+}
+#block-11 {
+	margin-bottom: 0.5em;
+}
+#block-16 input[type="email"] {
+	background-color: transparent;
+	border-color: #DDD8F9;
+}
+.site-below-footer-wrap[data-section="section-below-footer-builder"] .ast-builder-grid-row {
+	min-height: auto;
+}
+.sec2-col1-1 .elementor-widget-wrap.elementor-element-populated {
+	margin-left: 0 !important;
+}
+.countdown {
+	display: flex;
+	align-items: center;
+}
+.url .event-btn a:hover {
+	color: #fff;
+}
+.email-icon, .location-icon, .phone-icon {
+	margin-right: 8px;
+}
+.elementor-58 .elementor-element.elementor-element-211c16d {
+	margin: 0 8% 20px 8%;
+}
+.aboutus-sec1 {
+	margin: 0 50px;
+}
+.aboutus-sec1 .elementor-widget-wrap.elementor-element-populated {
+	padding: 0;
+}
+.aboutus-sec1 .elementor-container.elementor-column-gap-default {
+	gap: 25px;
+}
+.aboutus-sec2 .sec2-col1 .elementor-widget-wrap.elementor-element-populated {
+	margin-left: 0;
+}
+.aboutus-sec2 .justify {
+	text-align: justify;
 }</style>
 <!-- end Simple Custom CSS and JS -->

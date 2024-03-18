@@ -152,12 +152,16 @@ if ($query->have_posts()) : ?>
                 }   
             ?>             
             <div class="cat">
-            <h5><?php the_title(); ?></h5>
+            <div class="content">
+            <h4><?php the_title(); ?></h4>
                 <div><?php echo get_field('description'); ?></div>
-                <div><?php echo get_field('name'); ?></div>
             </div>
             <?php $youtube_link = get_field('youtube_link'); ?>
-            <div><button class="event-btn"><a href="<?php echo esc_url($youtube_link); ?>" target="_blank">View Now</a></button></div>
+            <div class="url">
+                <div><p><?php echo get_field('name'); ?></p></div>
+                <div><button class="event-btn"><a href="<?php echo esc_url($youtube_link); ?>" target="_blank">View Now</a></button></div>
+            </div>
+            </div>
         </div>
     <?php endwhile; ?>
 <?php else : ?>
