@@ -9,14 +9,59 @@ p, .entry-content p {
 .blogs {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+}
+.blogs h5 {
+	line-height: 1.3;
+	padding: 15px 0;
+}
+.blogs .blog-col {
+	padding: 20px;
+	border: 1px solid #EFECFF;
+    border-radius: 6px;
+}
+.blog-page-content p, .content-area h3 {
+	font-size: 30px;
+}
+.blog-head {
+	padding: 20px 0;
+}
+.skills {
+	padding-bottom: 40px;
+}
+.content-area h3 {
+	padding: 40px 0 20px;
+}
+.fa.fa-star, .rating-price span {
+	font-size: 15px;
 }
 button.cat-btn {
     padding: 10px;
+}
+.rating {
+	display: flex;
+    align-items: center;
+    gap: 3px;
 }
 .rating-price {
 	display: flex;
     align-items: center;
 	gap: 5%;
+	justify-content: space-between;
+}
+.events-head {
+	background-image: url("http://localhost/prowhiz/wp-content/uploads/2024/03/before.png");
+	padding: 100px 50px;
+	margin: 0 -100px;
+}
+.events-head h2, .events-head .breadcrumbs {
+	padding-bottom: 20px;
+	text-align: center;
+	color: #fff;
+}
+.events-head .breadcrumbs span {
+	font-size: 20px;
+	color: #fff;
 }
 .blog-head {
 	display: flex;
@@ -25,11 +70,58 @@ button.cat-btn {
 .blog-page-content p {
 	margin-bottom: 0;
 }
-.event-content, .pro_connect, .testimonial-profile {
+.contact-us-sec2 h3 {
+	padding: 0;
+}
+.contact-icon .elementor-icon-box-wrapper {
+	display: flex !important;
+	gap: 30px;
+}
+.entry-content .contact-icon h3 {
+	margin-bottom: 10px;
+}
+/* .event-content, */
+.event, .pro_connect, .testimonial-profile {
 	display: flex;
 }
+.event-details h5 {
+	font-size: 22px;
+	color: #0F2239;
+	line-height: 1.3;
+	padding-bottom: 20px;
+}
+.contact-us-sec1 {
+	margin: 0 -50px;
+}
+.ff-default .ff-el-form-control {
+	border: transparent !important;
+}
+.fluent_form_1 .ff-custom_html h5 {
+	font-size: 16px;
+	color: #FE9600;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.elementor-175 .elementor-element.elementor-element-9a8a46e .fluentform-widget-wrapper .ff-el-group .ff-btn-submit {
+	background-color: #FE9600 !important;
+}
+.contact-us-sec2 .elementor-widget-wrap.elementor-element-populated {
+	padding: 50px;
+}
+.fluent_form_1 .ff-custom_html h3 {
+	font-size: 44px;
+	color: #0F2239;
+}
+.event {
+	padding: 20px;
+    border: 1px solid #ECF1F9;
+    border-radius: 6px;
+	gap: 10px;
+}
 .events {
+	margin: 40px -50px;
 	display: grid;
+	gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .event-content img {
@@ -212,5 +304,11 @@ footer .ast-builder-grid-row-4-rheavy .ast-builder-grid-row {
 }
 .aboutus-sec2 .justify {
 	text-align: justify;
+}
+.site-content {
+	margin: 0 50px;
+}
+.blogs img {
+	width: -webkit-fill-available;
 }</style>
 <!-- end Simple Custom CSS and JS -->

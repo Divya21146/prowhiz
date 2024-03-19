@@ -24,6 +24,14 @@
     <div id="primary" <?php astra_primary_class(); ?>>
         <?php
         astra_primary_content_top(); ?>
+        <div class="events-head">
+            <h2>WORKSHOPS</h2>
+            <div class="breadcrumbs">
+                <span>Home</span>
+                <span><img src="http://localhost/prowhiz/wp-content/uploads/2024/03/Item.png" alt=""></span>
+                <span>Events</span>
+            </div>
+        </div>
         <div class="events">
             <?php
             // $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
@@ -44,21 +52,13 @@
                             $image = get_field('image');
                             echo '<img src="' . $image . '" alt="image" />';
                         }
-                        echo "<div class='host-details'>";
-                        if (get_field('host_photo')) {
-                            $host_photo = get_field('host_photo');
-                            echo '<img src="' . $host_photo . '" alt="host" />';
-                        }
                         ?>
-                        <p><?php echo get_field('host_name') ?: 'Host Name Not Provided'; ?></p>
-                        <p><?php echo get_field('host_position') ?: 'Position Not Provided'; ?></p>
-                        <div><?php echo get_field('address') ?: 'Address Not Provided'; ?></div>
-                        <div><?php echo get_field('from') ?: 'Start Date Not Provided'; ?></div>
-                        <div><?php echo get_field('to') ?: 'End Date Not Provided'; ?></div>
                     </div>
-                    </div>
+                    <div class="event-details">
                         <h5><?php the_title(); ?></h5>
-                        <button class="event-btn"><a href="<?php echo esc_url(get_permalink()); ?>">Register</a></button>
+                        <button class="event-btn"><a href="<?php echo esc_url(get_permalink()); ?>">Register                <span><img src="http://localhost/prowhiz/wp-content/uploads/2024/03/Item.png" alt=""></span>
+</a></button>
+                    </div>
                     </div>
                 <?php endwhile;
             else : ?>
