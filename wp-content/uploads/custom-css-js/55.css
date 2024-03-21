@@ -134,15 +134,24 @@ button.cat-btn {
 	padding-left: 50px;
     padding-right: 50px;
 }
+.home-sec2 {
+	margin: 40px -50px 40px -50px;
+}
+.home-final-sec {
+	margin: 20px -50px 40px -50px;
+}
 .home-sec1 {
-	margin: 0 -50px 20px -50px;
+	margin: 0 -100px 20px -100px;
 }
 .home-main1 {
 	padding-left: 40px;
 }
-.home-sec2 .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+.home-sec2 .home-sec-col-3 .elementor-widget-wrap.elementor-element-populated {
 	padding: 0;
 	margin-left: 30px;
+}
+.home-sec2 .home-sec-col-3 .elementor-heading-title.elementor-size-default {
+	padding: 0;
 }
 .sec2-col1 .elementor-widget-wrap.elementor-element-populated, .sec2-col3-iconbox1 .elementor-icon-box-wrapper, .sec2-col3-iconbox2 .elementor-icon-box-wrapper {
     gap: 20px;
@@ -249,7 +258,7 @@ footer {
 	margin-bottom: 15px;
 }
 .top-categories {
-	margin: 20px -50px 0 -50px;
+	margin: 20px -100px 0 -100px;
 }
 .home-sec3-carousel .elementor-container {
 	padding: 0 40px;
@@ -290,8 +299,9 @@ footer .ast-builder-grid-row-4-rheavy .ast-builder-grid-row {
 .elementor-58 .elementor-element.elementor-element-211c16d {
 	margin: 0 8% 20px 8%;
 }
-.aboutus-sec1 {
-	margin: 0 50px;
+.aboutus-sec1 .elementor-icon-box-title {
+/* 	margin: 0 50px; */
+	padding: 0;
 }
 .aboutus-sec1 .elementor-widget-wrap.elementor-element-populated {
 	padding: 0;
