@@ -1,2 +1,2 @@
 # prowhiz
-This is like an online course website using wordpress
+This is one of my freelance project like an online course website using wordpress
